@@ -18,3 +18,19 @@ body {
 .container img {
 	width: 100%;
 }
+
+.row .container:focus,
+.row .container:hover {
+	transform: scale(1.2);
+	z-index: 1;
+}
+
+.middle {
+	background-color: burlywood;
+}
+
+.text {
+	font-size: 1rem;
+	color: white;
+	padding: 16px 32px;
+}
